@@ -1,48 +1,9 @@
-### Installation and Configuration Requirements Documentation
-
-#### Installation:
-
-1. Python Environment Setup:
-    - Users must have Python 3.x installed on their system.
-
-2. Dependencies Installation:
-    - Users need to install the required Python libraries and dependencies. This can be done using pip, preferably within a virtual environment to manage dependencies cleanly.
-
-    
-    pip install flask sounddevice soundfile SpeechRecognition PyPDF2 google-generativeai langchain langchain-google-genai python-dotenv
-    
-
-3. Environment Variable Setup:
-    - Set up a system environment variable named "GOOGLE_API_KEY" with your Google GenerativeAI API key. This allows the application to authenticate and access the GenerativeAI service.
-
-4. Google GenerativeAI API Key:
-    - Users must obtain a valid API key for the Google GenerativeAI service. This key should be securely stored and accessible to the application through the "GOOGLE_API_KEY" environment variable.
-
-#### Configuration:
-
-1. Google GenerativeAI Configuration:
-    - Before running the application, ensure that the Google GenerativeAI API key is correctly configured as a system environment variable named "GOOGLE_API_KEY".
-
-2. Vector Store Configuration:
-    - The application utilizes a vector store to manage text chunks for similarity search. 
-    - Upon initial setup, if no existing vector store is found, users will be prompted to upload a PDF file to create the index. Ensure the application has necessary permissions to read and write to the file system.
-
-3. Prompt Template Customization (Optional):
-    - Users may customize the prompt template used for generating conversational responses based on their specific requirements.
-    - The prompt template is defined within the `get_conversational_chain()` function and can be modified as needed to tailor the responses to the desired context.
-
-4. Flask Configuration (Optional):
-    - Flask provides various configuration options for the web server, such as debugging mode, host, and port settings. These can be configured based on deployment requirements.
-
-5. Audio Input Configuration (Optional):
-    - If users intend to utilize audio input for user queries, ensure that the microphone is properly configured and accessible to the application.
-    - Users may need to adjust audio input settings based on their system setup for optimal performance.
-
-#### Additional Notes:
-
-- Users should refer to the documentation of individual libraries and services for detailed installation and configuration instructions.
-- It's recommended to test the installation and configuration thoroughly before deploying the application in production environments.
-- Ensure that all dependencies are up-to-date and compatible with each other to avoid potential issues during installation or runtime.
-- Periodically review and update the configuration, especially the Google API key, to maintain security and functionality.
-
-
+flask
+sounddevice
+soundfile
+SpeechRecognition
+PyPDF2
+google-generativeai
+langchain
+langchain-google-genai
+python-dotenv
