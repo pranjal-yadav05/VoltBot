@@ -37,10 +37,12 @@ streamlit run voltbot.py
 
 ## Technologies Used
 - Python
-- Streamlit
-- Google Cloud Speech-to-Text API
-- PyPDF2
 - LangChain
+- Google Gemini
+- PyPDF2
+- Flask
+- HTML,CSS
+- Bootstrap
 
 ## Author
 Pranjal Yadav, 
