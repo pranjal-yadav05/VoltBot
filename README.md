@@ -1,4 +1,6 @@
-# VoltBot ⚡
+# VoltBot 
+
+<img width='100px' src='https://media.giphy.com/media/6rYFu4DkdH2UyBYtYL/giphy.gif'>
 
 VoltBot is an AI-powered assistant designed to help you with all your electrical engineering queries and tasks. Whether you're a professional electrician or a hobbyist, VoltBot is here to assist you with information, troubleshooting, and more!
 
@@ -26,13 +28,24 @@ To install and run VoltBot locally, follow these steps:
 git clone https://github.com/pranjal-yadav05/VoltBot
 cd VoltBot
 ```
-2. Install dependencies:
+2. Create and Run Virtual Environment
+```bash
+   python -m venv myenv
+```
+```bash
+   myenv\Scripts\activate
+``` 
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run VoltBot:
+4. Run VoltBot:
 ```bash
 python app.py
+```
+5. How to Deactivate virtual environment
+```bash
+   deactivate
 ```
 
 ## Technologies Used
