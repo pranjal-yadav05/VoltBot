@@ -23,7 +23,7 @@ To install and run VoltBot locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone [repository_url]
+git clone https://github.com/pranjal-yadav05/VoltBot
 cd VoltBot
 ```
 2. Install dependencies:
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 3. Run VoltBot:
 ```bash
-streamlit run voltbot.py
+python app.py
 ```
 
 ## Technologies Used
