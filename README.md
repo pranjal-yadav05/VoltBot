@@ -28,24 +28,30 @@ To install and run VoltBot locally, follow these steps:
 git clone https://github.com/pranjal-yadav05/VoltBot
 cd VoltBot
 ```
-2. Create and Run Virtual Environment
+
+2. Save your Google Generative AI api key in your system environment variable named as "GOOGLE_API_KEY".
+
+3. Create and Run Virtual Environment
 ```bash
-   python -m venv myenv
+python -m venv myenv
 ```
 ```bash
-   myenv\Scripts\activate
+myenv\Scripts\activate
 ``` 
-3. Install dependencies:
+
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-4. Run VoltBot:
+
+5. Run VoltBot:
 ```bash
 python app.py
 ```
-5. How to Deactivate virtual environment
+
+6. How to Deactivate virtual environment
 ```bash
-   deactivate
+deactivate
 ```
 
 ## Technologies Used
@@ -64,4 +70,4 @@ Yug Patel,
 Kushal Zinzuvadia
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
